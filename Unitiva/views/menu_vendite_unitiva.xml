@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo> 
+    <menuitem id="menu_vendite_unitiva_config" name="Configurazione" parent="sale.menu_sale_config" sequence="10"/>
+
+    <menuitem id="menu_piani_rinnovo" name="Piani di rinnovo" parent="menu_vendite_unitiva_config" action="action_piani_rinnovo" sequence="20"/>
+
+    <menuitem id="menu_motivazioni_ordine" name="Motivazioni Ordine" parent="sale.menu_sale_config" action="action_motivazioni_ordine" sequence="30"/>
+</odoo>

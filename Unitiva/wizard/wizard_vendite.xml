@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record id="action_wizard_cambio_stato_ordine" model="ir.actions.act_window">
+        <field name="name">Cambio Stato Ordine</field>
+        <field name="res_model">wizard.cambio.stato.ordine</field>
+        <field name="view_mode">form</field>
+        <field name="target">new</field>
+    </record>
+
+    <record id="view_wizard_cambio_stato_ordine" model="ir.ui.view">
+        <field name="name">wizard.cambio.stato.ordine.form</field>
+        <field name="model">wizard.cambio.stato.ordine</field>
+        <field name="arch" type="xml">
+            <form string="Cambio Stato Ordine">
+                <group>
+                    <field name="sale_order_id"/>
+                    <field name="state_to_set" readonly="1"/>
+                    <field name="motivazione_id"/>
+                    <field name="note" widget="text" placeholder="Scrivi qui delle note, se vuoi"/>
+                </group>
+                <footer>
+                    <button name="conferma_cambio_stato" type="object" string="Conferma" class="oe_highlight"/>
+                    <button string="Annulla" class="btn-secondary" special="cancel"/>
+                </footer>
+            </form>
+        </field>
+    </record>
+</odoo>

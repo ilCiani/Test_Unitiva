@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+  <record id="view_partner_form_unitiva_remove_original" model="ir.ui.view">
+    <field name="name">res.partner.form.unitiva.remove.original</field>
+    <field name="model">res.partner</field>
+    <field name="inherit_id" ref="base.view_partner_form"/>
+    <field name="arch" type="xml">
+      <xpath expr="//sheet/div[@name='button_box']/following-sibling::*[1]" position="replace">
+      </xpath>
+    </field>
+  </record>
+
+  <record id="view_partner_form_unitiva_inherit_fields" model="ir.ui.view">
+    <field name="name">res.partner.form.unitiva.inherit.fields</field>
+    <field name="model">res.partner</field>
+    <field name="inherit_id" ref="base.view_partner_form"/>
+    <field name="arch" type="xml">
+      <xpath expr="//sheet/group[last()]" position="after">
+        <group string="Dati Persona" invisible="is_company" colspan="2">
+          <field name="referente_interno"/>
+          <field name="rappresentante_legale"/>
+          <field name="data_nascita"/>
+          <field name="luogo_nascita"/>
+          <field name="tipo_documento"/>
+          <field name="numero_documento"/>
+          <field name="data_emissione_documento"/>
+          <field name="scadenza_documento"/>
+        </group>
+
+        <group string="Dati Azienda" invisible="not is_company" colspan="2">
+          <field name="categoria_merceologica_id"/>
+          <field name="progressivo_cliente" readonly="1"/>
+          <field name="referente_interno_id"/>
+          <field name="rappresentante_legale_id"/>
+        </group>
+      </xpath>
+    </field>
+  </record>
+
+  <record id="view_partner_form_unitiva_inherit_flusso" model="ir.ui.view">
+    <field name="name">res.partner.form.unitiva.inherit.flusso</field>
+    <field name="model">res.partner</field>
+    <field name="inherit_id" ref="base.view_partner_form"/>
+    <field name="arch" type="xml">
+      <xpath expr="//sheet/group[last()]" position="after">
+        <group string="Flusso" colspan="2">
+          <field name="approvazione_stato" readonly="1"/>
+          <div class="oe_button_box" name="button_box">
+            <button name="bottone_approva" type="object" string="Approva"
+                    class="btn-primary"
+                    invisible="approvazione_stato == 'approvato'"/>
+            <button name="bottone_reimposta" type="object" string="Reset Approva"
+                    invisible="approvazione_stato != 'approvato'"/>
+          </div>
+        </group>
+      </xpath>
+    </field>
+  </record>S
+</odoo>

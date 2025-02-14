@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record id="action_motivazioni_ordine" model="ir.actions.act_window">
+        <field name="name">Motivazioni Ordine</field>
+        <field name="res_model">motivazioni.ordine</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+
+    <record id="view_motivazioni_ordine_tree" model="ir.ui.view">
+        <field name="name">motivazioni.ordine.tree</field>
+        <field name="model">motivazioni.ordine</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="nome"/>
+                <field name="stato_ordine"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="view_motivazioni_ordine_form" model="ir.ui.view">
+        <field name="name">motivazioni.ordine.form</field>
+        <field name="model">motivazioni.ordine</field>
+        <field name="arch" type="xml">
+            <form string="Motivazione Ordine">
+                <sheet>
+                    <group>
+                        <field name="nome"/>
+                        <field name="stato_ordine"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+</odoo>

@@ -1,0 +1,14 @@
+"id","name","model_id:id","group_id:id","perm_read","perm_write","perm_create","perm_unlink"
+
+"access_ciani_unitiva_res_partner","Access Ciani Unitiva for res.partner","model_res_partner","base.group_user",1,1,1,1
+"access_ciani_unitiva_categoria","Access Categoria Merceologica","model_ciani_unitiva_categoria","base.group_user",1,1,1,1
+
+
+"access_vendite_unitiva_backoffice","Accesso Vendite Backoffice","sale.model_sale_order","base.group_user",1,1,1,1
+"access_vendite_unitiva_servizio_clienti","Accesso Vendite Servizio Clienti","sale.model_sale_order","base.group_public",1,0,0,0
+
+"access_piano_rinnovo","Accesso Piano di Rinnovo","model_vendite_unitiva_piano_rinnovo","base.group_user",1,1,1,1
+"access_motivazioni_ordine","Accesso Motivazioni Ordine","model_motivazioni_ordine","base.group_user",1,1,1,1
+
+"access_wizard_cambio_stato_ordine","Accesso Wizard Cambio Stato Ordine","model_wizard_cambio_stato_ordine","base.group_user",1,1,1,1
+"access_wizard_invia_preventivo","Accesso Wizard Invia Preventivo","model_wizard_invia_preventivo","base.group_user",1,1,1,1

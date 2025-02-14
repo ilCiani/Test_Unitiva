@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record id="view_wizard_invia_preventivo_form" model="ir.ui.view">
+        <field name="name">wizard.invia.preventivo.form</field>
+        <field name="model">wizard.invia.preventivo</field>
+        <field name="arch" type="xml">
+            <form string="Invia Preventivo">
+                <group>
+                    <field name="sale_order_id" options="{'no_create': True, 'no_open': True}" readonly="1"/>
+                    <field name="partner_id" options="{'no_create': True, 'no_open': True}" readonly="1"/>
+                    <field name="partner_email" readonly="1"/>
+                    <field name="attachment_id" options="{'no_create': True, 'no_open': True}" readonly="1"/>
+                </group>
+                <footer>
+                    <button string="Invia Email" type="object" name="action_send_email" class="oe_highlight"/>
+                    <button string="Annulla" type="object" special="cancel" class="oe_link"/>
+                </footer>
+            </form>
+        </field>
+    </record>
+</odoo>

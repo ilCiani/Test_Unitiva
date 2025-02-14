@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+  <record id="categoria_01" model="ciani.unitiva.categoria">
+    <field name="code">01</field>
+    <field name="name">Produzioni vegetali e animali, caccia e servizi connessi</field>
+  </record>
+  <record id="categoria_01_1" model="ciani.unitiva.categoria">
+    <field name="code">01.1</field>
+    <field name="name">Coltivazione di colture agricole non permanenti</field>
+  </record>
+  <record id="categoria_01_11" model="ciani.unitiva.categoria">
+    <field name="code">01.11</field>
+    <field name="name">Coltivazione di cereali, legumi da granella e semi oleosi, escluso il riso</field>
+  </record>
+  <record id="categoria_01_12" model="ciani.unitiva.categoria">
+    <field name="code">01.12</field>
+    <field name="name">Coltivazione di riso</field>
+  </record>
+  <record id="categoria_01_13" model="ciani.unitiva.categoria">
+    <field name="code">01.13</field>
+    <field name="name">Coltivazione di ortaggi e meloni, radici e tuberi</field>
+  </record>
+  <record id="categoria_01_13_1" model="ciani.unitiva.categoria">
+    <field name="code">01.13.1</field>
+    <field name="name">Coltivazione di ortaggi e meloni</field>
+  </record>
+  <record id="categoria_01_13_11" model="ciani.unitiva.categoria">
+    <field name="code">01.13.11</field>
+    <field name="name">Coltivazione di ortaggi e meloni in piena aria</field>
+  </record>
+  <record id="categoria_01_13_12" model="ciani.unitiva.categoria">
+    <field name="code">01.13.12</field>
+    <field name="name">Coltivazione di ortaggi e meloni in colture protette fuori suolo</field>
+  </record>
+  <record id="categoria_01_13_13" model="ciani.unitiva.categoria">
+    <field name="code">01.13.13</field>
+    <field name="name">Coltivazione di ortaggi e meloni in altre colture protette, escluse colture fuori suolo</field>
+  </record>
+  <record id="categoria_01_13_2" model="ciani.unitiva.categoria">
+    <field name="code">01.13.2</field>
+    <field name="name">Coltivazione di radici, incluse barbabietole da zucchero</field>
+  </record>
+  <record id="categoria_01_13_3" model="ciani.unitiva.categoria">
+    <field name="code">01.13.3</field>
+    <field name="name">Coltivazione di tuberi, incluse patate</field>
+  </record>
+  <record id="categoria_01_14" model="ciani.unitiva.categoria">
+    <field name="code">01.14</field>
+    <field name="name">Coltivazione di canna da zucchero</field>
+  </record>
+  <record id="categoria_01_15" model="ciani.unitiva.categoria">
+    <field name="code">01.15</field>
+    <field name="name">Coltivazione di tabacco</field>
+  </record>
+  <record id="categoria_01_16" model="ciani.unitiva.categoria">
+    <field name="code">01.16</field>
+    <field name="name">Coltivazione di piante tessili</field>
+  </record>
+  <record id="categoria_01_19" model="ciani.unitiva.categoria">
+    <field name="code">01.19</field>
+    <field name="name">Coltivazione di altre colture agricole non permanenti</field>
+  </record>
+  <record id="categoria_01_19_1" model="ciani.unitiva.categoria">
+    <field name="code">01.19.1</field>
+    <field name="name">Coltivazione di fiori</field>
+  </record>
+  <record id="categoria_01_19_11" model="ciani.unitiva.categoria">
+    <field name="code">01.19.11</field>
+    <field name="name">Coltivazione di fiori in piena aria</field>
+  </record>
+  <record id="categoria_01_19_12" model="ciani.unitiva.categoria">
+    <field name="code">01.19.12</field>
+    <field name="name">Coltivazione di fiori in colture protette fuori suolo</field>
+  </record>
+  <record id="categoria_01_19_13" model="ciani.unitiva.categoria">
+    <field name="code">01.19.13</field>
+    <field name="name">Coltivazione di fiori in altre colture protette, escluse colture fuori suolo</field>
+  </record>
+  <record id="categoria_01_19_9" model="ciani.unitiva.categoria">
+    <field name="code">01.19.9</field>
+    <field name="name">Coltivazione di piante da foraggio e di altre colture agricole non permanenti n.c.a.</field>
+  </record>
+
+  <record id="categoria_01_2" model="ciani.unitiva.categoria">
+    <field name="code">01.2</field>
+    <field name="name">Coltivazione di colture agricole permanenti</field>
+  </record>
+  <record id="categoria_01_21" model="ciani.unitiva.categoria">
+    <field name="code">01.21</field>
+    <field name="name">Coltivazione di uva</field>
+  </record>
+  <record id="categoria_01_22" model="ciani.unitiva.categoria">
+    <field name="code">01.22</field>
+    <field name="name">Coltivazione di frutta di origine tropicale e subtropicale</field>
+  </record>
+  <record id="categoria_01_23" model="ciani.unitiva.categoria">
+    <field name="code">01.23</field>
+    <field name="name">Coltivazione di agrumi</field>
+  </record>
+  <record id="categoria_01_24" model="ciani.unitiva.categoria">
+    <field name="code">01.24</field>
+    <field name="name">Coltivazione di pomacee e frutta a nocciolo</field>
+  </record>
+  <record id="categoria_01_25" model="ciani.unitiva.categoria">
+    <field name="code">01.25</field>
+    <field name="name">Coltivazione di altri alberi da frutto, frutti di bosco e frutta in guscio</field>
+  </record>
+  <record id="categoria_01_26" model="ciani.unitiva.categoria">
+    <field name="code">01.26</field>
+    <field name="name">Coltivazione di frutti oleosi</field>
+  </record>
+  <record id="categoria_01_27" model="ciani.unitiva.categoria">
+    <field name="code">01.27</field>
+    <field name="name">Coltivazione di piante per la produzione di bevande</field>
+  </record>
+  <record id="categoria_01_28" model="ciani.unitiva.categoria">
+    <field name="code">01.28</field>
+    <field name="name">Coltivazione di spezie, piante aromatiche e farmaceutiche</field>
+  </record>
+  <record id="categoria_01_29" model="ciani.unitiva.categoria">
+    <field name="code">01.29</field>
+    <field name="name">Coltivazione di altre colture agricole permanenti</field>
+  </record>
+
+  <record id="categoria_01_3" model="ciani.unitiva.categoria">
+    <field name="code">01.3</field>
+    <field name="name">Riproduzione delle piante</field>
+  </record>
+
+  <record id="categoria_01_4" model="ciani.unitiva.categoria">
+    <field name="code">01.4</field>
+    <field name="name">Allevamento di animali</field>
+  </record>
+  <record id="categoria_01_41_0" model="ciani.unitiva.categoria">
+    <field name="code">01.41.0</field>
+    <field name="name">Allevamento di bovini da latte</field>
+  </record>
+  <record id="categoria_01_42" model="ciani.unitiva.categoria">
+    <field name="code">01.42</field>
+    <field name="name">Allevamento di altri bovini e bufalini</field>
+  </record>
+  <record id="categoria_01_43" model="ciani.unitiva.categoria">
+    <field name="code">01.43</field>
+    <field name="name">Allevamento di cavalli e altri equini</field>
+  </record>
+  <record id="categoria_01_44" model="ciani.unitiva.categoria">
+    <field name="code">01.44</field>
+    <field name="name">Allevamento di cammelli e camelidi</field>
+  </record>
+  <record id="categoria_01_45" model="ciani.unitiva.categoria">
+    <field name="code">01.45</field>
+    <field name="name">Allevamento di ovini e caprini</field>
+  </record>
+  <record id="categoria_01_46" model="ciani.unitiva.categoria">
+    <field name="code">01.46</field>
+    <field name="name">Allevamento di suini</field>
+  </record>
+  <record id="categoria_01_47" model="ciani.unitiva.categoria">
+    <field name="code">01.47</field>
+    <field name="name">Allevamento di pollame</field>
+  </record>
+  <record id="categoria_01_48" model="ciani.unitiva.categoria">
+    <field name="code">01.48</field>
+    <field name="name">Allevamento di altri animali</field>
+  </record>
+  <record id="categoria_01_48_1" model="ciani.unitiva.categoria">
+    <field name="code">01.48.1</field>
+    <field name="name">Allevamento di conigli</field>
+  </record>
+  <record id="categoria_01_48_2" model="ciani.unitiva.categoria">
+    <field name="code">01.48.2</field>
+    <field name="name">Allevamento di altri animali da pelliccia</field>
+  </record>
+  <record id="categoria_01_48_3" model="ciani.unitiva.categoria">
+    <field name="code">01.48.3</field>
+    <field name="name">Apicoltura</field>
+  </record>
+  <record id="categoria_01_48_4" model="ciani.unitiva.categoria">
+    <field name="code">01.48.4</field>
+    <field name="name">Bachicoltura</field>
+  </record>
+  <record id="categoria_01_48_9" model="ciani.unitiva.categoria">
+    <field name="code">01.48.9</field>
+    <field name="name">Allevamento di altri animali n.c.a.</field>
+  </record>
+  <record id="categoria_01_48_91" model="ciani.unitiva.categoria">
+    <field name="code">01.48.91</field>
+    <field name="name">Allevamento di insetti</field>
+  </record>
+  <record id="categoria_01_48_99" model="ciani.unitiva.categoria">
+    <field name="code">01.48.99</field>
+    <field name="name">Allevamento di altri animali vari n.c.a.</field>
+  </record>
+
+  <record id="categoria_01_5" model="ciani.unitiva.categoria">
+    <field name="code">01.5</field>
+    <field name="name">Coltivazioni agricole associate all’allevamento di animali: attività mista</field>
+  </record>
+
+  <record id="categoria_01_6" model="ciani.unitiva.categoria">
+    <field name="code">01.6</field>
+    <field name="name">Attività di supporto all’agricoltura e attività successive alla raccolta</field>
+  </record>
+  <record id="categoria_01_61" model="ciani.unitiva.categoria">
+    <field name="code">01.61</field>
+    <field name="name">Attività di supporto alla produzione vegetale</field>
+  </record>
+  <record id="categoria_01_61_1" model="ciani.unitiva.categoria">
+    <field name="code">01.61.1</field>
+    <field name="name">Manutenzione del terreno per mantenerlo in buone condizioni</field>
+  </record>
+  <record id="categoria_01_61_9" model="ciani.unitiva.categoria">
+    <field name="code">01.61.9</field>
+    <field name="name">Attività di supporto alla produzione vegetale n.c.a.</field>
+  </record>
+  <record id="categoria_01_61_91" model="ciani.unitiva.categoria">
+    <field name="code">01.61.91</field>
+    <field name="name">Trattamenti fitosanitari</field>
+  </record>
+  <record id="categoria_01_61_99" model="ciani.unitiva.categoria">
+    <field name="code">01.61.99</field>
+    <field name="name">Altre attività di supporto alla produzione vegetale n.c.a.</field>
+  </record>
+  <record id="categoria_01_62" model="ciani.unitiva.categoria">
+    <field name="code">01.62</field>
+    <field name="name">Attività di supporto alla produzione animale</field>
+  </record>
+  <record id="categoria_01_62_01" model="ciani.unitiva.categoria">
+    <field name="code">01.62.01</field>
+    <field name="name">Attività di maniscalchi</field>
+  </record>
+  <record id="categoria_01_62_09" model="ciani.unitiva.categoria">
+    <field name="code">01.62.09</field>
+    <field name="name">Altre attività di supporto alla produzione animale</field>
+  </record>
+  <record id="categoria_01_63" model="ciani.unitiva.categoria">
+    <field name="code">01.63</field>
+    <field name="name">Attività successive alla raccolta e lavorazione delle sementi per la semina</field>
+  </record>
+  <record id="categoria_01_63_1" model="ciani.unitiva.categoria">
+    <field name="code">01.63.1</field>
+    <field name="name">Attività successive alla raccolta</field>
+  </record>
+  <record id="categoria_01_63_2" model="ciani.unitiva.categoria">
+    <field name="code">01.63.2</field>
+    <field name="name">Lavorazione delle sementi per la semina</field>
+  </record>
+
+  <record id="categoria_01_7" model="ciani.unitiva.categoria">
+    <field name="code">01.7</field>
+    <field name="name">Caccia, cattura di animali e servizi connessi</field>
+  </record>
+
+  <record id="categoria_02" model="ciani.unitiva.categoria">
+    <field name="code">02</field>
+    <field name="name">Silvicoltura e utilizzo di aree forestali</field>
+  </record>
+
+  <record id="categoria_02_2" model="ciani.unitiva.categoria">
+    <field name="code">02.2</field>
+    <field name="name">Utilizzo di aree forestali</field>
+  </record>
+
+  <record id="categoria_02_3" model="ciani.unitiva.categoria">
+    <field name="code">02.3</field>
+    <field name="name">Raccolta di prodotti selvatici non legnosi</field>
+  </record>
+
+  <record id="categoria_02_4" model="ciani.unitiva.categoria">
+    <field name="code">02.4</field>
+    <field name="name">Servizi di supporto per la silvicoltura</field>
+  </record>
+
+  <record id="categoria_03" model="ciani.unitiva.categoria">
+    <field name="code">03</field>
+    <field name="name">Pesca e acquacoltura</field>
+  </record>
+  <record id="categoria_03_1" model="ciani.unitiva.categoria">
+    <field name="code">03.1</field>
+    <field name="name">Pesca</field>
+  </record>
+  <record id="categoria_03_11" model="ciani.unitiva.categoria">
+    <field name="code">03.11</field>
+    <field name="name">Pesca marina</field>
+  </record>
+
+  <record id="categoria_03_12" model="ciani.unitiva.categoria">
+    <field name="code">03.12</field>
+    <field name="name">Pesca in acque dolci</field>
+  </record>
+
+  <record id="categoria_03_2" model="ciani.unitiva.categoria">
+    <field name="code">03.2</field>
+    <field name="name">Acquacoltura</field>
+  </record>
+  <record id="categoria_03_21" model="ciani.unitiva.categoria">
+    <field name="code">03.21</field>
+    <field name="name">Acquacoltura marina</field>
+  </record>
+
+  <record id="categoria_03_21_01" model="ciani.unitiva.categoria">
+    <field name="code">03.21.01</field>
+    <field name="name">Coltivazione di alghe marine</field>
+  </record>
+  <record id="categoria_03_21_09" model="ciani.unitiva.categoria">
+    <field name="code">03.21.09</field>
+    <field name="name">Altre attività di acquacoltura marina</field>
+  </record>
+  <record id="categoria_03_22" model="ciani.unitiva.categoria">
+    <field name="code">03.22</field>
+    <field name="name">Acquacoltura in acque dolci</field>
+  </record>
+
+  <record id="categoria_03_22_01" model="ciani.unitiva.categoria">
+    <field name="code">03.22.01</field>
+    <field name="name">Coltivazione di alghe in acque dolci</field>
+  </record>
+  <record id="categoria_03_22_09" model="ciani.unitiva.categoria">
+    <field name="code">03.22.09</field>
+    <field name="name">Altre attività di acquacoltura in acque dolci</field>
+  </record>
+  <record id="categoria_03_3" model="ciani.unitiva.categoria">
+    <field name="code">03.3</field>
+    <field name="name">Attività di supporto alla pesca e all’acquacoltura</field>
+  </record>
+</odoo>

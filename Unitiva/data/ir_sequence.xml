@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+  <record id="seq_progressivo_cliente" model="ir.sequence">
+    <field name="name">Progressivo Cliente</field>
+    <field name="code">res.partner.client.progressivo</field>
+    <field name="prefix">UNTV</field>
+    <field name="padding">5</field>
+    <field name="number_increment">1</field>
+  </record>
+</odoo>
